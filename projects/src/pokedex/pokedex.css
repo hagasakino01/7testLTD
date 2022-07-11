@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to right, rgb(174, 252, 249) , rgb(235, 235, 165));
+    padding-bottom: 40px;
 }
 .title-pd{
     font-size: 28px;
