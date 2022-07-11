@@ -10,12 +10,14 @@ import './Movies.css'
 
 function Movies() {
     const [movie,setMovie] =useState([])
+    const [loading,setLoading]=useState(false)
     const handleGetMovies = async () => {
+        setLoading(true)
         axios.get('https://62a00597a9866630f80561eb.mockapi.io/v1/movies')
             .then(function (response) {
                 // handle success
                 setMovie(response.data)
-             
+             setLoading(false)
             })
             .catch(function (error) {
                 // handle error
@@ -105,6 +107,9 @@ function Movies() {
                     </div>                          
                 ))}
             </div>
+            {loading&&<div className="box-loading-mv">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" alt="" className="loading-mv"/>
+            </div>}
         </div>
     )
 }
