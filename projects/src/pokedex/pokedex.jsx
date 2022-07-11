@@ -42,7 +42,7 @@ function PokeDex() {
                     </div>                          
                 ))}
                { loading&&<div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" alt="" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" alt="" className="loading-pd" />
                 </div>}
             </div>
         </div>

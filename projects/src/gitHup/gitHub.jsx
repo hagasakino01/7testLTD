@@ -110,7 +110,9 @@ function Github() {
 
             </div>}
             {no && <div className="profile-gh">
-                <p>No profile with this username</p>
+                <div className="box-no-pf">
+                <p className="no-pf">No profile with this username</p>
+                </div>
             </div>}
 
         </div>

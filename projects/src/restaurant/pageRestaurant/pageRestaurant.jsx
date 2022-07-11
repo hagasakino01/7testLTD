@@ -186,8 +186,6 @@ function PageRestaurant() {
             </div>}
 
            </div>
-        
-           
         </div>
 
     )

@@ -17,6 +17,7 @@ function NavRestaurant() {
         setInput(prevState => ({ ...prevState, [e.target.name]: e.target.value }))
         // debounceDropDown(input.search)
 };
+
     // const handleSearch=(data)=>{
     // dispatch(getInput(data))
     // }
