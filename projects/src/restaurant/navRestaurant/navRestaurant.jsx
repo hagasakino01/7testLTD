@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import debounce from "lodash.debounce";
+import React, { useCallback, useState } from "react";
+import { useEffect } from "react";
 import { useDispatch, } from 'react-redux';
 import { getInput } from "../../features/restaurant/restaurantSlice";
 
@@ -9,11 +11,26 @@ function NavRestaurant() {
 
     const dispatch= useDispatch()
     const [input, setInput] = useState({});
-    const handleChange = e => setInput(prevState => ({ ...prevState, [e.target.name]: e.target.value }));
+
+    // const debounceDropDown = useCallback(debounce((nextValue) =>  handleSearch(nextValue), 1000), [])
+    const handleChange = e => {
+        setInput(prevState => ({ ...prevState, [e.target.name]: e.target.value }))
+        // debounceDropDown(input.search)
+};
+    // const handleSearch=(data)=>{
+    // dispatch(getInput(data))
+    // }
 
     const handleSearch=()=>{
         dispatch(getInput(input.search))
     }
+    useEffect(() => {
+        handleSearch()
+    }, [input.search])
+
+
+
+
     return(
         <div className="navbar-restaurant">
             <div className="nav-res-container">
@@ -22,11 +39,9 @@ function NavRestaurant() {
                 </button>
                 
                 <input type="text" className='input-search-res' placeholder="Woodland Hills"
-                        name="search" value={input.search || ''} onChange={handleChange}  onKeyPress={(e)=>{
-                            if(e.key=== "Enter"){
-                                handleSearch()
-                            }
-                        }}
+                        name="search" value={input.search || ''} onChange={handleChange} 
+                          
+                        
                     />
             </div>
 

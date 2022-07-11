@@ -64,15 +64,12 @@ function PageRestaurant() {
         handleGetRestaurant()
     }, [])
     const onChange = (checkedValues) => {
-        
-        
         if(checkedValues[0]){
-            let newList1= listOriginal.filter((list)=> list.cuisine === checkedValues[0]  )
-            let newList2= listOriginal.filter((list)=> list.cuisine === checkedValues[1]  )
-            let newList3= listOriginal.filter((list)=> list.cuisine === checkedValues[2]  )
-            let newList= [...newList1,...newList2,...newList3]
+            let newListAmerican= listOriginal.filter((list)=> list.cuisine === checkedValues[0]  )
+            let newListChinese= listOriginal.filter((list)=> list.cuisine === checkedValues[1]  )
+            let newListItalian= listOriginal.filter((list)=> list.cuisine === checkedValues[2]  )
+            let newList= [...newListAmerican,...newListChinese,...newListItalian]
 
-            
             setCuisine(newList)
             handleFilterAll()
         }
@@ -119,12 +116,12 @@ function PageRestaurant() {
         handleSearch()
     }, [input])
     const handleFilterAll=()=>{
-        let filter1 = listOriginal.filter(x => category.includes(x));
-        let filter2 = filter1.filter(x => cuisine.includes(x));
-        let filter3 = filter2.filter(x => priceRange.includes(x));
-        let filter4 = filter3.filter(x => starRating.includes(x));
-        let filter5 = filter4.filter(x => search.includes(x));
-        setLisRes(filter5)
+        let filterCategory = listOriginal.filter(x => category.includes(x));
+        let filterCuisine = filterCategory.filter(x => cuisine.includes(x));
+        let filterPriceRange = filterCuisine.filter(x => priceRange.includes(x));
+        let filterStarRating = filterPriceRange.filter(x => starRating.includes(x));
+        let filterSearch = filterStarRating.filter(x => search.includes(x));
+        setLisRes(filterSearch)
     }
     useEffect(() => {
         handleFilterAll()

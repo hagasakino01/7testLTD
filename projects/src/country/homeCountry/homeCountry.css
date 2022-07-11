@@ -38,6 +38,7 @@
     height: 30px;
     margin-right: 10px;
     background-color: #fff;
+    padding-left: 40px;
     
 }
 .input-search-ct-dark{
@@ -46,6 +47,7 @@
     margin-right: 10px;
     background-color:  rgb(58, 42, 91);
     color: #fff;
+    padding-left: 40px;
 }
 .button-search-ct{
     padding: 0px;
@@ -56,7 +58,7 @@
     border: 0px;
     background-color: #fff ;
     position: absolute;
-    margin-left: 260px;
+    margin-left: 8px;
    
 }
 .button-search-ct-dark{
@@ -64,11 +66,10 @@
     width: 26px;
     height: 26px;
   
-    
     border: 0px;
     background-color: rgb(58, 42, 91);
     position: absolute;
-    margin-left: 260px;
+    margin-left: 8px;
     
 }
 .img-search-ct{

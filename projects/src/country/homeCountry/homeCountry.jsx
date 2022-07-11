@@ -99,6 +99,7 @@ function HomeCountry() {
         <div className={isDark&&"home-country"||'home-country-dark'}>
            <div className="top-home-country">
                 <div className="box-input-ct">
+                    
                     <input type="text" className={isDark &&"input-search-ct"||'input-search-ct-dark'} placeholder="Search for a country"
                         name="search" value={input.search || ''} onChange={handleChange}  onKeyPress={(e)=>{
                             if(e.key=== "Enter"){
