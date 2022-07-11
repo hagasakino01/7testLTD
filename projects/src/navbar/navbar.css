@@ -1,0 +1,65 @@
+.navbar{
+    background: #1c2237;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 1px 1px 10px #1c2237;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.navbar-logo{
+    box-sizing: border-box;
+    color: #fff;
+    
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+.logo-LTD{
+    width: 32px;
+    height: 32px;
+    
+}
+.nav-menu{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    
+}
+.nav-item{
+    box-sizing: border-box;
+    height: 80px;
+    border-bottom: 2px solid transparent;
+}
+.nav-link{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 16px;
+    height: 100%;  
+}
+
+  

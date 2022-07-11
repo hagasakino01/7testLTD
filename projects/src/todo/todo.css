@@ -1,0 +1,101 @@
+.todo{
+    width: 100%;
+    min-height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242, 241, 241);
+
+}
+.title{
+    margin-top: 100px;
+    font-size: 70px;
+    font-weight: 600;
+    color:#e7acdc;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px #868686;
+}
+.input{
+    width: 100%;
+    margin-bottom: 1px;
+    padding-left: 15px;
+    background-color: #fff;
+}
+.box-input{
+    height: 40px;
+    
+    width: 100%;
+    border: 0px;
+}
+.box-input:focus{
+    border: 0px;
+    outline: none;
+}
+
+
+
+
+.box-list{
+    box-sizing: border-box;
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+   
+    
+    
+ 
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 1px;
+   
+    padding-top: 5px;
+
+}
+.content{
+    box-sizing: border-box;
+    
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.content-completed{
+    box-sizing: border-box;
+    
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+
+    align-items: flex-start;
+    text-decoration: line-through;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.button-del{
+    justify-self: end;
+    width: 40px;
+    height: 25px;
+    
+}

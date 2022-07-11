@@ -1,0 +1,160 @@
+.container-in-ct{
+    display: flex;
+    
+    justify-content: center;
+}
+.in-country{
+    width: 100%;
+    background-color:  #fff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.in-country-dark{
+    width: 100%;
+    background-color:  rgb(35, 21, 61);
+    padding-top: 40px;
+}
+
+.box-button-back-ct{
+   
+    margin-left: 6%;
+    margin-bottom: 40px;
+}
+.button-back-ct{
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.button-back-ct-dark{
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-size: 16px;
+    font-weight: 500;
+    background-color:rgb(58, 42, 91) ;
+    color: #fff;
+    
+}
+.img-icon-back-ct{
+    width: 23px;
+    height: 18px;
+    margin-right: 4px;
+}
+.body-in-country{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.box-img-in-ct{
+    box-sizing: border-box;
+    justify-self: start;
+    margin-right: 30px;
+}
+.img-in-ct{
+    width: 400px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.right-in-ct{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+   
+    
+   
+}
+.right-in-ct-top{
+    display: flex;
+
+
+}
+.right-in-ct-top-dark{
+    display: flex;
+    color: #fff;
+
+}
+.right-in-ct-top-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.title-name-in-ct{
+    font-size: 22px;
+    margin: 0px;
+    font-weight: 700;
+}
+.title-name-in-ct-dark{
+    font-size: 22px;
+    margin: 0px;
+    font-weight: 700;
+    color: #fff;
+}
+.item-in-ct{
+    display: flex;
+}
+.name-item-in-ct{
+    margin-right: 4px;
+    font-weight: 700;
+}
+.value-item-in-ct{
+    
+}
+
+
+
+.right-in-ct-top-right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-in-ct-bot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+}
+.title-boder-in-ct{
+    font-weight: 700;
+}
+.title-boder-in-ct-dark{
+    font-weight: 700;
+    color: #fff;
+}
+.box-button-boder-ct{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+}
+.box-button-boder-in-ct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.button-boder-ct{
+    width: 140px;
+    height: 30px;
+    border-style: groove rgb(154, 154, 154);
+}

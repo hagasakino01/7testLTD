@@ -1,0 +1,43 @@
+.dad-jokes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-dj{
+    width: 500px;
+    border-style: outset;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-dj{
+    color:rgb(114, 114, 114);
+}
+.content-dj{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+
+}
+.text-dj{
+    
+    font-size: 20px;
+}
+.button-dj{
+    width: 170px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(159, 103, 232);
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-bottom: 10px;
+}

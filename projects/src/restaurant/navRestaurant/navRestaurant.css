@@ -1,0 +1,49 @@
+.navbar-restaurant{
+    background: #fff;
+    height: 80px;
+    display: flex;
+
+    align-items: center;
+    
+    position: sticky;
+    top: 0;
+    border-bottom:1px solid LightGray; 
+  
+}
+.nav-res-container{
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+}
+.button-search-res{
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid LightGray;
+    background-color: #fff;
+    margin-right: 15px;
+    border: 0px;
+}
+.button-search-res:hover{
+    background-color: rgb(224, 223, 223);
+}
+
+.img-search-res{
+    width: 25px;
+    height: 25px;
+}
+.input-search-res{
+    width: 50%;
+    height: 40px;
+    font-size: 22px;
+    border: 0px;
+}
+.input-search-res:focus{
+    width: 50%;
+    height: 40px;
+    font-size: 22px;
+    border: 0px;
+    outline: none;
+}
+

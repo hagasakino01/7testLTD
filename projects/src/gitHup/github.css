@@ -1,0 +1,107 @@
+.github{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-input-gh{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    
+}
+.input-gh{
+    width: 35%;
+    height: 35px;
+
+    min-width: 300px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(222, 214, 229);
+}
+.search-gh{
+    width: 80px;
+    height: 38px;
+    border-radius: 20px;
+    margin-left: 5px;
+    border: 0px;
+    background-color: rgb(222, 214, 229);
+}
+.profile-gh{
+    width: 45%;
+    background-color:  rgb(130, 90, 194);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-width: 545px;
+}
+.profile-gh-full{
+    width: 55%;
+    background-color:  rgb(130, 90, 194);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-width: 545px;
+}
+.profile-gh-exist{
+    display: flex;
+   
+}
+.box-avatar-gh{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: rgb(109, 55, 194);
+    min-width: 110px;
+}
+.avatar-gh{
+    width: 100px;
+    height: 100px;
+   margin: auto;
+
+   border-radius: 50%;
+}
+.infor-gh{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 80%;
+}
+.name-gh{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.bio-gh{
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.status-gh{
+    display: flex;
+}
+.item-st-gh{
+    color: #fff;
+    width: 50%;
+}
+.box-project-gh{
+    
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.project-gh{
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+ 
+    color: #fff;
+    background-color: rgb(97, 36, 197);
+    display:inline-block;
+}

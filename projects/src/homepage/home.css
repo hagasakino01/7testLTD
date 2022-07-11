@@ -1,0 +1,30 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conten-homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-list-project{
+    display: flex;
+    
+    align-items: flex-start;
+    border-style: ridge;
+    width: 400px;
+}
+.list-project{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.li-pj{
+    width: 350px;
+    align-items: flex-start;
+    justify-self: start;
+}

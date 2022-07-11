@@ -1,0 +1,277 @@
+.page-restaurant{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.menu-res{
+    width: 350px;
+}
+.category-res{
+    width: 350px;
+
+}
+.title-category-res{
+   
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 15px 15px ;
+}
+.radio-category-res{
+    width: 350px;
+    margin-bottom: 35px;
+
+}
+.radio-input-category{
+    width:90px;
+	height: 30px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	
+	
+	background: #ffffff;
+	color: #bdbdbdbd;
+	font-size: 14px;
+
+	transition: all 100ms linear;
+
+    padding: 4px 0px 0px 0px;
+    border-radius: 8px;
+    border: 1px lightgrey;
+    border-style: solid;
+  
+}
+#places{
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.radio-input-category:checked{
+   background-color: rgb(50, 50, 51);
+	color: #fff;
+	box-shadow: 0 1px 1px #0000002e;
+	text-shadow: 0 1px 0px #79485f7a;
+
+}
+.radio-input-category::before{
+    content: attr(label);
+	display: inline-block;
+	text-align: center;
+    justify-content: center;
+	width: 100%;
+} 
+
+
+
+
+.cuisine-res{
+    width: 300px;
+}
+
+.title-cuisine-res{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 15px 20px;
+}
+.content-cuisine-res{
+    display: flex;
+    flex-direction: row;
+}
+.cuisine-country{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 15px;
+    margin-left: 15px
+    
+}
+.title-name-country{
+    margin: 0px;
+    font-weight: 400;
+    margin-bottom: 10px;
+   
+
+}
+.cuisine-checkbox-country{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.cuisine-checkbox-country div .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+  
+}
+.cuisine-checkbox-country div .ant-checkbox-wrapper {
+    margin-bottom: 8px;
+}
+
+
+.checkbox-cuisine{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.price-range-res{
+    width: 320;
+}
+.title-price-range-res{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 15px 15px ;
+}
+
+.container-range-res{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+
+
+.star-rating-res{
+    width: 350px;
+}
+.title-category-res{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 15px 15px ;
+}
+.radio-rating-res{
+    width: 350px;
+    margin-bottom: 35px;
+}
+.radio-input-rating{
+    width:40px;
+	height: 40px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	
+	
+	background: #ffffff;
+	color: #bdbdbdbd;
+	font-size: 14px;
+
+	transition: all 100ms linear;
+
+    padding: 8px 0px 0px 0px;
+    border-radius: 8px;
+    border: 1px lightgrey;
+    border-style: solid;
+    margin-left: 15px;
+   
+
+    
+}
+
+.radio-input-rating:checked{
+    background-color: rgb(50, 50, 51);
+     color: #fff;
+     box-shadow: 0 1px 1px #0000002e;
+     text-shadow: 0 1px 0px #79485f7a;
+ 
+}
+.radio-input-rating::before{
+    content: attr(label);
+	display: inline-block;
+	text-align: center;
+    justify-content: center;
+	width: 100%;
+
+} 
+
+
+.container-right-res{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.box-res{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+  
+    
+}
+.img-res{
+    width: 350px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+.profile-res{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 20px;
+}
+.left-profile{
+    justify-self: start;
+}
+.name-res{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.left-bot-profile{
+    display: flex;
+
+}
+.time-res{
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 2px;
+}
+.delivery-res{
+    color: rgb(138, 138, 138);
+    font-weight: 400;
+}
+
+.right-profile{
+    justify-content: end;
+}
+.box-star-res{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(112, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  
+}
+.star-res{
+    margin: 0px;
+    font-weight: 400;
+}
+.total-res{
+    font-weight: 600;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+}
+
+
+
