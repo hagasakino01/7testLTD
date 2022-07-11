@@ -128,7 +128,7 @@ function PageRestaurant() {
     }
     useEffect(() => {
         handleFilterAll()
-    }, [category,starRating,cuisine,search])
+    }, [category,starRating,cuisine,search,priceRange])
     
 
 
